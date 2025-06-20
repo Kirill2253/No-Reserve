@@ -55,6 +55,7 @@ loadout-group-janitor-jumpsuit = Уборщик, комбинезон
 loadout-group-janitor-gloves = Уборщик, перчатки
 loadout-group-janitor-outerclothing = Уборщик, верхняя одежда
 loadout-group-janitor-plunger = Уборщик, вантуз
+loadout-group-janitor-brepsi = Уборщик, брепси
 loadout-group-botanist-head = Ботаник, голова
 loadout-group-botanist-jumpsuit = Ботаник, комбинезон
 loadout-group-botanist-backpack = Ботаник, рюкзак

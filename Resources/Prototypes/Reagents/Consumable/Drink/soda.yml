@@ -327,3 +327,33 @@
   physicalDesc: reagent-physical-desc-fizzy
   flavor: metallic
   color: "#66538F"
+
+- type: reagent
+  id: Brepsi
+  name: reagent-name-brepsi
+  parent: BaseSoda
+  desc: reagent-desc-brepsi
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: soda
+  color: "#6c2828"
+  recognizable: true
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/colaglass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:GenericStatusEffect
+        key: Drowsiness
+        time: 1.0
+        type: Remove
+  tileReactions: # Goobstation
+  - !type:ChangeTileReaction # Unrusts tile
+    newTileId: Plating
+    oldTileId: PlatingRust
+    effect: null

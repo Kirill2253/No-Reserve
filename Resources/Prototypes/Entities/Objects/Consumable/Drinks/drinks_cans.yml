@@ -848,3 +848,60 @@
   - type: Tag
     tags:
     - Wine
+
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkBrepsiCan
+  name: brepsi
+  description: A sweet, carbonated soft drink.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Brepsi
+          Quantity: 30
+      grindable:
+        reagents:
+        - ReagentId: Aluminium
+          Quantity: 4
+        - ReagentId: Iron
+          Quantity: 1
+  - type: Tag
+    tags:
+    - DrinkCan
+    - Recyclable
+  - type: Sprite
+    sprite: _Reserve/Objects/Consumable/Drinks/brepsi.rsi
+  - type: Item
+    sprite: _Reserve/Objects/Consumable/Drinks/brepsi.rsi
+
+- type: entity
+  parent: DrinkBrepsiCan
+  id: DrinkBrepsiCanEmpty
+  suffix: empty
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+      grindable:
+        reagents:
+        - ReagentId: Aluminium
+          Quantity: 4
+        - ReagentId: Iron
+          Quantity: 1
+  - type: Openable
+    opened: true
+  - type: Sprite
+    sprite: _Reserve/Objects/Consumable/Drinks/brepsi.rsi
+    layers:
+    - state: icon_open
+  - type: Item
+    sprite: _Reserve/Objects/Consumable/Drinks/brepsi.rsi
+  - type: Tag
+    tags:
+    - DrinkCan
+    - Recyclable
+    - Trash
