@@ -1,5 +1,5 @@
 flavor-profile = На вкус { $flavor }.
-flavor-profile-multiple = На вкус { $flavors } и { $lastFlavor }.
+flavor-profile-multiple =  { $flavors } и { $lastFlavor }.
 flavor-profile-unknown = Вкус неописуем.
 
 # Base flavors. Use these when you can't think of anything.
@@ -188,6 +188,7 @@ flavor-complex-compressed-meat = как спрессованное мясо
 flavor-complex-alcohol = как алкоголь
 flavor-complex-soda = как газировка
 flavor-complex-juice = как сок
+flavor-complex-brepsi = тихо...и стандартно...
 
 ## Basic drinks
 

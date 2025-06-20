@@ -334,7 +334,7 @@
   parent: BaseSoda
   desc: reagent-desc-brepsi
   physicalDesc: reagent-physical-desc-fizzy
-  flavor: soda
+  flavor: brepsi
   color: "#6c2828"
   recognizable: true
   metamorphicSprite:

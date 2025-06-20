@@ -1553,3 +1553,8 @@
   id: bacchusblessing
   flavorType: Complex
   description: flavor-complex-bacchus-blessing
+
+- type: flavor
+  id: brepsi
+  flavorType: Complex
+  description: flavor-complex-brepsi
