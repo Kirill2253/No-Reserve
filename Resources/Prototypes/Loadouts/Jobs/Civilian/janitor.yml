@@ -149,9 +149,3 @@
   storage:
     back:
     - GoldenPlunger
-
-- type: loadout
-  id: JanitorBrepsi
-  storage:
-    back:
-    - DrinkBrepsiCan
