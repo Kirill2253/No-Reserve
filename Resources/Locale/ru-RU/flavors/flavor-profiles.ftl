@@ -188,7 +188,6 @@ flavor-complex-compressed-meat = как спрессованное мясо
 flavor-complex-alcohol = как алкоголь
 flavor-complex-soda = как газировка
 flavor-complex-juice = как сок
-flavor-complex-brepsi = тихо...и стандартно...
 
 ## Basic drinks
 
@@ -228,6 +227,7 @@ flavor-complex-milk = как молоко
 flavor-complex-tea = как чай
 flavor-complex-ice = как лёд
 flavor-complex-bacchus-blessing = как стена из кирпичей
+flavor-complex-brepsi = тихо...и стандартно...
 
 ## Cocktails
 
