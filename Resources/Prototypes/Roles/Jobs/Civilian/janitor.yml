@@ -95,9 +95,9 @@
     id: JanitorPDA
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
-  #storage:
-    #back:
-    #- Stuff
+  storage:
+    back:
+    - DrinkBrepsiCan
 
 - type: startingGear
   id: JanitorMaidGear

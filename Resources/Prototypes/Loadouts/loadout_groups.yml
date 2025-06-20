@@ -1649,10 +1649,3 @@
   hidden: true
   loadouts:
   - LoadoutSpeciesBreathToolSecurity
-
-- type: loadoutGroup
-  id: JanitorBrepsi
-  name: loadout-group-janitor-brepsi
-  minLimit: 0
-  loadouts:
-  - JanitorBrepsi
