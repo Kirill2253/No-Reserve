@@ -100,7 +100,7 @@
     belt: ClothingBeltJanitorFilled
   storage:
     back:
-    - DrinkBrepsiCan
+    - DrinkBrepsiCan # Reserve edit
 
 - type: startingGear
   id: JanitorMaidGear
