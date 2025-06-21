@@ -227,7 +227,7 @@ flavor-complex-milk = как молоко
 flavor-complex-tea = как чай
 flavor-complex-ice = как лёд
 flavor-complex-bacchus-blessing = как стена из кирпичей
-flavor-complex-brepsi = тихо...и стандартно...
+flavor-complex-brepsi = тихо... и стандартно...
 
 ## Cocktails
 
